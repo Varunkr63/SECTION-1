@@ -12,56 +12,85 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 </head>
 <style>
-    nav{
-        background-color:red;
+    nav {
+        background-color: red;
     }
+    body{
+    background-color: azure;
+    }
+
+    footer {
+        background-color: rgb(46, 44, 44);
+        color: azure;
+    }
+
 </style>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Video streaming</a>
 
-    <header>
-        <nav class="navbar navbar-expand-md navbar-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">Video streaming</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarsupportedcontent">
-                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link active" href="#" aria-current="page">Home
-                                <span class="visually-hidden">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item" href="#">Action 1</a>
-                                <a class="dropdown-item" href="#">Action 2</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <form class="d-flex my-2 my-lg-0">
-                        <input class="form-control me-sm-2" type="text" placeholder="Search" />
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                            Search
-                        </button>
-                    </form>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarsupportedcontent">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#" aria-current="page">Home
+                            <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <input class="form-control me-sm-2" type="text" placeholder="Search" />
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                        Search
+                    </button>
+                </form>
             </div>
-        </nav>
-        </nav>
+        </div>
+    </nav>
+    </nav>
+    <header>
+
         <main>
-        <div class="card-container-fluid">
-            <div class="row">
-                <div class="col-md-8">
+            <section>
+                <div class="p-5 mb-4 bg-light rounded-3">
+                   <div class="container-fluid py-5">
+                       <div class="row">
+                           <div class="col-md-6">
+                               <h1 class="display-5 fw-bold">customm jumbo</h1>
+                               <p class="col-md-8 fs-4">
+                                   Using a series of utilities, you can create this jumbotron, just
+                                   like the one in previous versions of Bootstrap. Check out the
+                                   examples below for how you can remix and restyle it to your liking.
+                               </p>
+                               <button class="btn btn-primary btn-lg" type="button">
+                                   Start Watching
+                               </button>
+                           </div>
+                           <div class="col-md-6">
+                            <img class="card-img-top my-img" src="https://th.bing.com/th/id/R.2965f8448ef116dac37096d7c3f02075?rik=nmcX8AEgxi%2fKWw&riu=http%3a%2f%2fwww.slashfilm.com%2fwp%2fwp-content%2fimages%2fZZ1F9411B7.jpg&ehk=qpNYhr9vvn%2b8nCGHs6c44eWKDuGBUk1daqoyqxBajJ0%3d&risl=1&pid=ImgRaw&r=0" alt="">
+
+                           </div>
+
+            <div class="card-container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
                         <video controls>
                             <source src="video 1.mp4" type="video/mp4">nature
                         </video>
@@ -73,20 +102,20 @@
                             </ul>
                         </div>
 
+                    </div>
                 </div>
             </div>
-        </div>
         </main>
     </header>
     <footer>
         <div class="container">
 
-			<div class="row gy-3">
-				<div class="col-md-6">
-					<h3>video streaming website</h3>
-					<p> &copy; 2024,Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, minus?</p>
-					<p>Lorem ipsum d illo, tempore eum corrupti ea porro voluptates! Accusamus.</p>
-				</div>
+            <div class="row gy-3">
+                <div class="col-md-6">
+                    <h3>video streaming website</h3>
+                    <p> &copy; 2024,Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, minus?</p>
+                    <p>Lorem ipsum d illo, tempore eum corrupti ea porro voluptates! Accusamus.</p>
+                </div>
 
     </footer>
 

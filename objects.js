@@ -77,5 +77,14 @@ const sum =phonelist.reduce((accumulator,Object)=>{return accumulator+Object.pri
 console.log(sum);
 
 
+let models=[];
+
+for (let phone of phonelist){
+    console.log(phonr.models);
+
+}
+console.log(models);
+
+
 
 

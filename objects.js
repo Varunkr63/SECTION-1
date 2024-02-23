@@ -60,10 +60,22 @@ const phonelist=[
     {brand:'oneplus',model:'12', price:67999},
     {brand:'samsung',model:'m31', price:14999},
     {brand:'IQOO',model:'z7pro', price:27858},
-    {brand:'Vivo',model:'v7', price:14999},
+    {brand:'Vivo',model:'v7', price:12999},
 ];
 console.log(phonelist.length);
 
 console.log(phonelist[1].price);
 phonelist[phonelist.length-1].model='v9'
 console.log(phonelist);
+
+//find sum of all prices
+//get models of all smartphone in an array
+
+
+
+const sum =phonelist.reduce((accumulator,Object)=>{return accumulator+Object.price;},0)
+console.log(sum);
+
+
+
+
